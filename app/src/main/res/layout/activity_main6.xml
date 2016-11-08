@@ -1,0 +1,276 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_fab_shadow_end_color">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WASTE TO WEALTH -ENVIS"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/abc_secondary_text_material_dark"
+        android:typeface="serif"
+        android:background="@color/colorPrimaryDark"
+        android:scrollIndicators="none"
+        android:forceHasOverlappingRendering="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:background="@color/design_fab_shadow_end_color"
+        android:layout_below="@+id/textView11">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:background="@color/highlighted_text_material_dark"
+            android:gravity="top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="WAYS TO CHANGE WASTE TO WEALTH"
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/abc_primary_text_disable_only_material_light"
+                android:typeface="serif"
+                android:layout_gravity="top"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="VERMI COMPOST"
+                android:id="@+id/textView133"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/abc_primary_text_disable_only_material_light"
+                android:typeface="serif"
+                android:layout_weight="0.77"
+                android:layout_gravity="top"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="447dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Vermi-composting is very successful at community level but it is yet to develop at commercial scale. Manual composting is carried out in smaller urban centres. Although mechanical composting plants were set up in cities but presently, only few plants out of them continues to be in operation. The high cost of mechanical composting plants and the non utilization of by-products are among the factors which make the process an uneconomic proposition."
+                android:id="@+id/textView32"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.27" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView12"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/vermi"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Utilization OF E-Waste "
+                android:id="@+id/textView356"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/abc_primary_text_disable_only_material_light"
+                android:typeface="serif"
+                android:layout_weight="0.77"
+                android:layout_gravity="top"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="447dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="E-waste for short – or Waste Electrical and Electronic Equipment (WEEE) – is the term used to describe old, end-of-life or discarded electrical appliances. In this catalogue, “e-waste” is used as a generic term embracing all types of waste that consists of electrically powered components containing Precious Metals (PM) or Base Metals (BM). E-waste contains both valuable materials (PM and BM) as well as hazardous materials which require special handling and recycling methods.&quot;"
+                android:id="@+id/textView12"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView22"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ewaste1"
+                android:scaleType="fitCenter"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Metal Extraction from Electronic Waste"
+                android:id="@+id/textView7"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:layout_gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1390dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Large volumes of electronic goods, such as computers, mobile phones, music players, televisions and cameras, are being disposed every day. These devices contain various metals such as lead (Pb), copper (Cu), gold (Au), aluminum (Al), silver (Ag), palladium (Pd) and ferrous metals, which are often disposed as waste (known as electronic waste or E-waste). These metals are usually extracted by manually sorting and grinding the materials and then separating the metals in smelters. The facilities used for this process are often unsafe, exposing the workers and the environment to toxic gases and metals. E-waste disposal is a prevailing problem in developed countries. Technologies for the recovery of valuable materials from e-waste have been developed to resolve this problem. Current technologies can be broadly categorized as thermal processing, bioleaching and hydrometallurgical processing. There are both regulatory and economic drivers behind the use of these technologies. Developed countries, such as those in the European Union, have passed laws and regulations mandating original equipment manufacturers to collect e-waste from private users and dispose of it in an eco-friendly manner. Developing countries are also taking action. For example, in 2009 the Chinese government revised and supplemented a “List of banned imported solid wastes” to include various categories of e-waste. In addition, with the price of metals such as Cu realizing substantial increases over the past year, the economic advantages of recovering these commodities have correspondingly increased."
+                android:id="@+id/textView22"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="0.13" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView32"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ewaste4"
+                android:scaleType="fitCenter"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Utilization of Biomedical Waste"
+                android:id="@+id/textView5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="510dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medical waste is broadly defined as any solid or liquid waste that is generated in the diagnosis, treatment of immunization of human beings or animals in research pertaining there to, or in the production or testing of biological material.Biomedical wastes from hospitals and other healthcare and research centers has become an imperative environmental and public safety problem. So, it is necessary that the biomedical wastes should be disposed in a manner which is least harmful to the human beings. Incineration is the most appropriate alternative for reducing the waste volume but generates a new type of waste in the form of fly ash, bottom ash and molten slag. "
+                android:id="@+id/textView6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.31"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/biomedicalwaste"
+                android:layout_margin="0dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="Ethanol from Cellulose Waste"
+                android:id="@+id/textView3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="577dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The conversion of cellulose waste into ethanol rich biofuels. Cellulosic ethanol is a biofuel produced from wood, grasses, or the non-edible parts of plants. It is a kind of biofuel which is generally produced from lignocelluloses. The building block units of lignocellulose are cellulose, hemicellulose and lignin. Lignocelluloses have increasingly favoured as most suitable raw material for the next generation of bio-ethanol around the world. The technology has advantage of diverse and abundant raw materials which are of no use and are easily available but it requires a greater amount of processing to make the monomeric units of sugar for the fermentation of ethanol. These monomeric units of sugar are consumed by the microorganisms in their metabolism as a substrate to convert them into biofuel, ethanol                            "
+                android:id="@+id/textView8"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center" />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Major Success Factors"
+                android:id="@+id/button41"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:background="@color/highlighted_text_material_light"
+                android:textColor="#083ed3"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ENVIS CENTRE,DESKU"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

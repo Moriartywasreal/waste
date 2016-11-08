@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_fab_shadow_end_color">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WASTE TO WEALTH -ENVIS"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/abc_secondary_text_material_dark"
+        android:typeface="serif"
+        android:background="@color/colorPrimaryDark"
+        android:scrollIndicators="none"
+        android:forceHasOverlappingRendering="true"
+        android:layout_alignParentEnd="true" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:background="@color/design_fab_shadow_end_color"
+        android:layout_below="@+id/textView11">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:background="@color/highlighted_text_material_dark"
+            android:gravity="top">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Major success factors "
+                android:id="@+id/textView321"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/abc_primary_text_disable_only_material_light"
+                android:typeface="serif"
+                android:layout_weight="0.77"
+                android:layout_gravity="top"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Use of wealth of technologies owned by local businesses"
+                android:id="@+id/textView322"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Efficient use of existing reclaimed land "
+                android:id="@+id/textView323"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Strong Leaderships in the city government, academia and industry"
+                android:id="@+id/textView324"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	High level of citizens' environmental awareness and Dialogue mechanism between the city government and citizens"
+                android:id="@+id/textView325"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.46" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	City government's support for recyclers"
+                android:id="@+id/textView326"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView321"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/wealth1"
+                android:scaleType="fitCenter"
+                android:layout_margin="10dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:id="@+id/button321"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:background="@color/highlighted_text_material_light"
+                android:textColor="#083ed3"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ENVIS CENTRE,DESKU"
+                android:id="@+id/textView4"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+
+

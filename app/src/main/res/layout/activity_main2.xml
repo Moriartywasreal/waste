@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_fab_shadow_end_color">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WASTE TO WEALTH -ENVIS"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/abc_secondary_text_material_dark"
+        android:typeface="serif"
+        android:background="@color/colorPrimaryDark"
+        android:scrollIndicators="none"
+        android:forceHasOverlappingRendering="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:background="@color/design_fab_shadow_end_color"
+        android:layout_below="@+id/textView11">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:background="@color/highlighted_text_material_dark"
+            android:gravity="top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Type of Waste "
+                android:id="@+id/textView111"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/abc_primary_text_disable_only_material_light"
+                android:typeface="serif"
+                android:layout_weight="0.77"
+                android:layout_gravity="top|center"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Municipal solid waste"
+                android:id="@+id/textView112"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Solid waste generated from household of township/cities and commercial complex. The waste mixed with compostable materials, plastics, glass and other metallic scraps and also silt and ash."
+                android:id="@+id/textView113"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Agricultural waste"
+                android:id="@+id/textView114"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The waste generated from crop residue in the agricultural field. These are all biodegradable."
+                android:id="@+id/textView115"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Commercial waste"
+                android:id="@+id/textView116"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The waste generated from commercial complex. It is composed of papers, glass, plastics and metal scraps. Often it mixed with E-waste."
+                android:id="@+id/textView117"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Industrial waste"
+                android:id="@+id/textView118"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The waste generated from industrial processing units. Mostly these are all hazardous waste."
+                android:id="@+id/textView119"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Biomedical waste"
+                android:id="@+id/textView1110"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The waste generated from Hospitals, Medical Centre or Research Institutes of Biological Sciences"
+                android:id="@+id/textView1112"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Plastic waste"
+                android:id="@+id/textView1113"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Waste generated from commercial complex and various utility centre, where materials are wrapped with various kinds of plastics. These are non biodegradable waste."
+                android:id="@+id/textView1114"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	Hazardous waste"
+                android:id="@+id/textView1115"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="These waste which are toxic, igneous, persistent and inflammable in nature. Mostly they generated from Industries and Medical centers. This waste are persistent nature."
+                android:id="@+id/textView1116"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="•	E-waste"
+                android:id="@+id/textView1117"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The waste which are generated from electronic manufacturing or user’s centre"
+                android:id="@+id/textView1118"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+
+
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView32"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/waste2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:id="@+id/button41"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:background="@color/highlighted_text_material_light"
+                android:textColor="#083ed3"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ENVIS CENTRE,DESKU"
+                android:id="@+id/textView4"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

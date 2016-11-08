@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/highlighted_text_material_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                 3 R&apos;s"
+        android:id="@+id/textView53"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView62"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The 3R’s of Reduce, Reuse and Recycle have been considered to be a base of environmental awareness and a way of promoting ecological balance through conscious behaviour and choices. "
+        android:id="@+id/textView62"
+        android:layout_below="@+id/textView53"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:layout_above="@+id/imageView22" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView22"
+        android:src="@drawable/r3"
+        android:layout_above="@+id/button21"
+        android:layout_alignEnd="@+id/textView62"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLICK HERE TO KNOW MORE"
+        android:id="@+id/button21"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/highlighted_text_material_light"
+        android:textColor="#0664c2"
+        android:textStyle="bold|italic"
+        android:textSize="20dp" />
+
+</RelativeLayout>

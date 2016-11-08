@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_fab_shadow_end_color">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WASTE TO WEALTH -ENVIS"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/abc_secondary_text_material_dark"
+        android:typeface="serif"
+        android:background="@color/colorPrimaryDark"
+        android:scrollIndicators="none"
+        android:forceHasOverlappingRendering="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:background="@color/design_fab_shadow_end_color"
+        android:layout_below="@+id/textView11">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:background="@color/highlighted_text_material_dark"
+            android:gravity="top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="               The 3R’s "
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/abc_primary_text_disable_only_material_light"
+                android:typeface="serif"
+                android:layout_weight="0.77"
+                android:layout_gravity="top" />
+
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="REDUCE - To buy less and use less. Incorporates common sense ideas like turning off the lights, rain barrels, and taking shorter showers, but also plays a part in composting/ grass cycling (transportation energy is reduced), low-flow toilets, and programmable thermostats. "
+            android:id="@+id/textView12"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/scrollView"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView12"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/r1"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="217dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="RECYCLE - Recycling is a resource recovery practice that refers to the collection and reuse of waste materials such as empty beverage containers. The materials from which the items are made can be reprocessed into new products.  "
+                android:id="@+id/textView32"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView22"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/waste0"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitCenter"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REUSE - Elements of the discarded item are used again. Initiatives include waste exchange, hand-me-downs, garage sales, quilting, travel mugs, and composting (nutrients).  "
+                android:id="@+id/textView22"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/scrollView"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp" />
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageView32"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/r2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="0dp"
+                android:scaleType="fitCenter" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:id="@+id/button21"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:background="@color/highlighted_text_material_light"
+                android:textColor="#083ed3"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ENVIS CENTRE,DESKU"
+                android:id="@+id/textView4"
+                android:textAlignment="center" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
